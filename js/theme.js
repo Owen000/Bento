@@ -16,10 +16,10 @@ const disableDark = () => {
     feather.replace();
 };
 
-if (darkTheme === 'enabled') {
+if (darkTheme === 'disabled') {
     enableDark();
 } else {
-    disableDark();
+    enableDark();
 }
 
 themeToggle.addEventListener('click', () => {
